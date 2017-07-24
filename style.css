@@ -1,0 +1,93 @@
+/* Here goes your CSS */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: RGBA(233, 235, 238, 1.00);
+  color: RGBA(43, 43, 43, 0.5);
+  font-size: 14px;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size:22px;
+}
+
+h2 {
+  font-size:18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+a {
+  color: RGBA(54, 88, 153, 0.8);
+  text-decoration: none;
+}
+a:hover {
+  color: RGBA(54, 88, 153, 0.5);
+}
+
+a:visited {
+  color: RGBA(54, 88, 153, 1.00);
+}
+
+p {
+
+}
+
+.container {
+  width: 700px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  background: white;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 4px;                         /* Small radius */
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);       /* OR subtle border */
+  margin: 10px;
+}
+
+.img-project {
+  width:192px;
+  height:192px;
+  border-radius: 4px;                         /* Small radius */
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+#img-profile {
+  width:256px;
+  height:256px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.list-inline > li > a > i {
+  font-size: 30px;
+}
+
+#projects td{
+  padding: 10px;
+}
+
+.footer {
+
+}
