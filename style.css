@@ -124,6 +124,7 @@ h3 {
 #navbar a {
   text-decoration: none;
   padding:10px 10px 10px 10px;
+  color:white;
 }
 
 #navbar a:hover {
