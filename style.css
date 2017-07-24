@@ -4,6 +4,7 @@ body {
   background-color: RGBA(233, 235, 238, 1.00);
   color: RGBA(43, 43, 43, 0.8);
   font-size: 14px;
+  margin:0px;
 }
 
 h1, h2, h3 {
@@ -12,30 +13,28 @@ h1, h2, h3 {
 
 h1 {
   font-size:22px;
+  color: RGBA(59, 89, 152, 1.00);
 }
 
 h2 {
   font-size:18px;
+  color: RGBA(43, 43, 43, 0.8);
 }
 
 h3 {
   font-size: 16px;
 }
 
-a {
+.social a {
   color: RGBA(54, 88, 153, 0.8);
   text-decoration: none;
 }
-a:hover {
+.social a:hover {
   color: RGBA(54, 88, 153, 0.5);
 }
 
-a:visited {
+.social a:visited {
   color: RGBA(54, 88, 153, 1.00);
-}
-
-p {
-
 }
 
 .container {
@@ -56,7 +55,6 @@ p {
   width:192px;
   height:192px;
   border-radius: 4px;                         /* Small radius */
-
 }
 
 .text-center {
@@ -66,6 +64,7 @@ p {
 #img-profile {
   width:256px;
   height:256px;
+  animation: flipInX 2s 1;
 }
 
 .img-circle {
@@ -87,7 +86,50 @@ p {
 #projects td{
   padding: 10px;
 }
+#security-disclosure td {
+  padding: 10px;
+}
+
+#game-hacks td {
+  padding: 10px;
+}
 
 .footer {
 
+}
+
+.btn {
+  padding: 8px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background-color: RGBA(0, 103, 163, 1.00);
+  color: white;
+  font-weight: 300;
+  transition: background 0s;
+}
+
+.btn-blue:hover {
+  background-color: RGBA(0, 121, 191, 1.00);
+}
+
+#navbar {
+  background-color: RGBA(59, 89, 152, 1.00);
+  color: white;
+  padding: 15px;
+}
+
+#navbar a {
+  text-decoration: none;
+  padding:10px 10px 10px 10px;
+}
+
+#navbar a:hover {
+  background-color: RGBA(80, 107, 163, 1.00);
+}
+
+#navbar a:visited {
+  color:white;
 }

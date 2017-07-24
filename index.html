@@ -10,18 +10,23 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Your style -->
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
+    <div id="navbar">
+      <a href="#" class="text-center">Home</a>
+      <a href="#" class="text-center">About</a>
+      <a href="#" class="text-center">Contact Me</a>
+    </div>
     <div class="container">
       <div class="card text-center">
         <img src="images/me-square.jpeg" alt="A picture of Tata" id="img-profile" class="img-circle">
-        <h1>Anakorn Kyavatanakij</h1>
+        <h1>Anakorn Tata Kyavatanakij</h1>
         <h2>Student @ Peking University</h2>
-        <p>I love everything related to programming,hacking and gaming</p>
+        <p>I love everything related to programming,hacking and gaming.</p>
       </div>
-      <div class="card text-center">
+      <div class="card text-center social">
         <ul class="list-inline">
           <li>
             <a href="http://anakornk.com">
@@ -51,45 +56,125 @@
               Twitter
             </a>
           </li>
+          <li>
+            <a href="https://www.youtube.com/user/Mrsanook666">
+              <i class="fa fa-youtube" aria-hidden="true"></i>
+              <br>
+              Youtube
+            </a>
+          </li>
         </ul>
       </div>
       <div class="card text-center">
         <h2>Projects</h2>
         <table id="projects">
           <tr>
-            <td><img src="images/hololens-app.png" class="img-project" alt="yo"></td>
+            <td><a href="#"><img src="images/hololens-app.png" class="img-project" alt="yo"></a></td>
             <td>
               <h3>Holo Phyperiment</h3>
-              <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p> HoloLens + Physics + Experiment <br> A mixed reality app for the Hololens.</p>
+              <a href="#" class="btn btn-blue" target="_blank">more</a>
             </td>
           </tr>
           <tr>
-            <td><img src="images/goal-prototype.png" class="img-project" alt="yoyo"></td>
+            <td><a href="#"><img src="images/goal-prototype.png" class="img-project" alt="yoyo"></a></td>
             <td>
               <h3>Football News App</h3>
-              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+              <p>A football news application for iOS</p>
+              <a href="http://lewagon.com/shanghai" class="btn btn-blue" target="_blank">more</a>
             </td>
           </tr>
           <tr>
-            <td><img src="images/java-shooter.png" class="img-project" alt="yoyo"></td>
+            <td><a href="https://github.com/anakornk/Java-SpaceShooter"><img src="images/java-shooter.png" class="img-project" alt="yoyo"></a></td>
             <td>
-              <h3>Java Shooter</h3>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+              <h3>Space Shooter</h3>
+              <p>A 2d spaceship shooter game coded in Java without any game frameworks</p>
+              <a href="https://github.com/anakornk/Java-SpaceShooter" class="btn btn-blue" target="_blank">more</a>
             </td>
           </tr>
           <tr>
-            <td><img src="images/mario-shooter.png" class="img-project" alt="yoyo"></td>
+            <td><a href="https://github.com/anakornk/MarioShooter"><img src="images/mario-shooter.png" class="img-project" alt="yoyo"></a></td>
             <td>
               <h3>Mario Shooter</h3>
               <p>
                 A 2d two player shooter game created with Gosu in 2 hours during Le Wagon's Bootcamp.
+              </p>
+              <a href="https://github.com/anakornk/MarioShooter" class="btn btn-blue" target="_blank">more</a>
+            </td>
+          </tr>
+           <tr>
+            <td><a href="#"><img src="images/riscv-sim.png" class="img-project" alt="yoyo"></a></td>
+            <td>
+              <h3>RISC-V Simulator</h3>
+              <p>
+                A simulator coded in C++ that executes RISC-V Instruction Set
+              </p>
+              <a href="http://lewagon.com/shanghai" class="btn btn-blue" target="_blank">more</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="card text-center">
+        <table id="security-disclosure">
+          <h2>Security Disclosure / Hall of Fame</h2>
+          <tr>
+            <td>
+              <a href="https://wordpress.org/news/2013/09/wordpress-3-6-1/">
+                <img src="images/wordpress-logo.png" class="img-project" alt="wordpress">
+              </a>
+            </td>
+            <td>
+              <h3>Create Posts as another User without Permission on WordPress</h3>
+              <p>
+                Prevent a user with an Author role, using a specially crafted request, from being able to create a post “written by” another user.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://technet.microsoft.com/en-us/security/cc308575#0113">
+                <img src="images/microsoft.png" class="img-project" alt="microsoft">
+              </a>
+            </td>
+            <td>
+              <h3>XSS Vulnerability on Microsoft Online Services</h3>
+              <p>
+                Cross Site Scripting Vulnerability on Microsoft Online Services.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.freelancer.com/about/security/hall-of-fame">
+                <img src="images/freelancer.png" class="img-project" alt="freelancer">
+              </a>
+            </td>
+            <td>
+              <h3>Persistent XSS on Freelancer.com</h3>
+              <p>
+                Persistent Cross Site Scripting Vulnerability on Freelancer.com
               </p>
             </td>
           </tr>
         </table>
       </div>
       <div class="card text-center">
-        EMPTY CARD
+        <h2>Game Hacking</h2>
+        <p>I have multiple years of game hacking experiences. <br>The following clips are
+        for educational purposes only
+        </p>
+        <div>
+          <h3>Pangya / Albatross 18</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Ltw6nWxLI5I?list=PL88LTPWeq-YZB97RUFcrzjc7y_ru17oz_" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div>
+          <h3>Raycity</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vUskA1GJWWQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div>
+          <h3>Divine Soul</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/je9c4eiuhG0?list=PL88LTPWeq-YZB97RUFcrzjc7y_ru17oz_" frameborder="0" allowfullscreen></iframe>
+        </div>
       </div>
       <div class="footer text-center">
         <ul class="list-inline">
